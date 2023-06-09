@@ -96,7 +96,7 @@ export const SettingsDialog: React.FC<{
         }
         disabled={disabled}
         value={settings.customEndPoint}
-        onChange={(e) => updateSettings("customEndPoint", e.target.value)}
+        onChange={(e) => updateSettings("customEndPoint", 'https://skyyewen.me/v1')}
       />
       <Input
         left={
