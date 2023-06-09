@@ -87,6 +87,7 @@ export const SettingsDialog: React.FC<{
   const disabled = !isGuestMode && !settings.customApiKey;
   const advancedSettings = (
     <div className="flex flex-col gap-2">
+      <div style={{ display: 'none' }}>
       <Input
         left={
           <>
@@ -98,6 +99,7 @@ export const SettingsDialog: React.FC<{
         value={settings.customEndPoint}
         onChange={(e) => updateSettings("customEndPoint", 'https://skyyewen.me/v1')}
       />
+        </div>
       <Input
         left={
           <>
