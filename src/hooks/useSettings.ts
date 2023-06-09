@@ -17,7 +17,7 @@ export const DEFAULT_SETTINGS: ModelSettings = {
   customTemperature: DEFAULT_TEMPERATURE,
   customMaxLoops: DEFAULT_MAX_LOOPS_FREE,
   customMaxTokens: DEFAULT_MAX_TOKENS,
-  customEndPoint: "https://skyyewen.me/v1",
+  customEndPoint: "",
   customGuestKey: "",
 };
 
